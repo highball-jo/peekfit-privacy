@@ -1,6 +1,6 @@
 # PeekFit — Privacy Policy
 
-**Effective date: October 19, 2026** (previous version: September 28, 2026)
+**Effective date: November 25, 2026** (previous version: October 19, 2026)
 
 PeekFit ("the app") is a virtual try-on camera app for iPhone and Android,
 published by JoCoding, Inc. This policy explains what information the app
@@ -10,7 +10,8 @@ handles and how.
 
 - PeekFit has **no accounts** and never asks for your name, email, or password.
 - Your **photos never leave your device**. All image processing (clothing
-  detection, erasing, compositing) happens on-device.
+  detection, erasing, compositing) happens on-device. The one exception is a
+  screenshot you choose to attach to feedback (see [Feedback](#feedback)).
 - **Face data** — if you use the face figure, the app keeps one picture of your
   head on your device so the closet can dress it. It is never uploaded or
   shared, and you can replace it or delete it with the app (see
@@ -133,12 +134,35 @@ app — never your name, Apple ID, Google account, or payment details.
 
 See RevenueCat's policy: <https://www.revenuecat.com/privacy>
 
+## Feedback
+
+You can send us a message from the camera screen or from Settings
+("Send feedback"). Nothing is sent until you press Send. We receive:
+
+- the message you typed;
+- your app version, device model and language, and a random identifier for
+  your copy of the app (used only to stop accidental repeat sends);
+- **only if you turn it on**, a screenshot of the screen you were on. It can
+  show your own photo or face figure, which is why it is off by default and
+  you see it before sending;
+- **only if you tick "OK to contact me"**, the email address you type, so we
+  can reply.
+
+Feedback is stored on our own server (Cloudflare, in the United States: the
+text in a database, the screenshot in file storage). Screenshots are deleted
+automatically 90 days after they arrive. Messages are kept until we no longer
+need them to improve the app; email us to have yours deleted sooner. Feedback
+is never sold, shared with advertisers, or used to decide who is asked for a
+store review.
+
 ## What we never collect
 
 - Names, email addresses, phone numbers, or contacts
 - Precise (GPS) location
-- Photos, camera imagery, or any content you create in the app
-- Face data of any kind (it stays on your device — see [Face data](#face-data))
+- Photos, camera imagery, or any content you create in the app — unless
+  you choose to attach a screenshot to feedback
+- Face data of any kind (it stays on your device — see [Face data](#face-data)),
+  apart from what a feedback screenshot you choose to attach may show
 - Browsing history or data from other apps
 
 ## Your choices and requests
@@ -165,7 +189,7 @@ Questions? Email **highball@jocoding.net**.
 
 # PeekFit — 개인정보 처리방침 (한국어)
 
-**시행일: 2026년 10월 19일** (이전 버전: 2026년 9월 28일)
+**시행일: 2026년 11월 25일** (이전 버전: 2026년 10월 19일)
 
 PeekFit(이하 "앱")은 JoCoding, Inc.가 배포하는 iPhone·Android용 가상 피팅
 카메라 앱입니다.
@@ -174,7 +198,8 @@ PeekFit(이하 "앱")은 JoCoding, Inc.가 배포하는 iPhone·Android용 가�
 
 - 앱에는 **계정이 없으며** 이름, 이메일, 비밀번호를 요구하지 않습니다.
 - **사진은 기기 밖으로 전송되지 않습니다.** 옷 인식·지우기·합성 등 모든
-  이미지 처리는 기기 내에서만 이루어집니다.
+  이미지 처리는 기기 내에서만 이루어집니다. 단, 의견을 보낼 때 이용자가 직접
+  첨부한 스크린샷은 예외입니다(아래 「피드백」 참고).
 - **얼굴 데이터** — 얼굴 피규어를 사용하면, 옷장에서 옷을 입혀 보여주기 위해
   얼굴(머리) 이미지 한 장을 기기에만 보관합니다. 업로드·공유되지 않으며,
   교체하거나 앱 삭제로 지울 수 있습니다(아래 「얼굴 데이터」 참고).
@@ -266,10 +291,31 @@ Apple의 SKAdNetwork로 측정됩니다. Android에서는 광고 ID를 삭제·�
 구매 내역만 전달받습니다. 이름, Apple ID, Google 계정, 결제 정보는 전달되지
 않습니다.
 
+## 피드백
+
+카메라 화면이나 설정의 「피드백 보내기」에서 메시지를 보낼 수 있습니다.
+보내기를 누르기 전에는 아무것도 전송되지 않습니다. 전송되는 내용은 다음과
+같습니다.
+
+- 이용자가 입력한 메시지
+- 앱 버전, 기기 모델, 언어, 그리고 앱 설치본마다 부여되는 무작위 식별자
+  (같은 메시지가 실수로 반복 전송되는 것을 막는 데에만 사용)
+- **이용자가 켠 경우에만** 보고 있던 화면의 스크린샷. 본인 사진이나 얼굴
+  피규어가 보일 수 있으므로 기본값은 꺼짐이며, 보내기 전에 미리 확인할 수
+  있습니다.
+- **「연락받아도 괜찮아요」를 선택한 경우에만** 답장을 위해 입력한 이메일 주소
+
+피드백은 당사 서버(Cloudflare, 미국)에 저장됩니다. 텍스트는 데이터베이스에,
+스크린샷은 파일 저장소에 보관되며, 스크린샷은 도착 후 90일이 지나면 자동으로
+삭제됩니다. 메시지는 앱 개선에 필요한 기간 동안 보관하며, 이메일로 요청하시면
+더 일찍 삭제해 드립니다. 피드백은 판매되거나 광고주와 공유되지 않으며, 스토어
+리뷰 요청 대상을 정하는 데에도 사용되지 않습니다.
+
 ## 수집하지 않는 정보
 
 이름·이메일·전화번호·연락처, 정밀(GPS) 위치, 사진 및 앱에서 만든 콘텐츠,
-얼굴 데이터(기기에만 보관), 다른 앱의 데이터는 수집하지 않습니다.
+얼굴 데이터(기기에만 보관), 다른 앱의 데이터는 수집하지 않습니다. 단, 피드백에
+이용자가 직접 첨부한 스크린샷과 직접 입력한 이메일은 예외입니다.
 
 ## 이용자의 선택과 요청
 
