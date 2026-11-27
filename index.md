@@ -1,6 +1,6 @@
 # PeekFit — Privacy Policy
 
-**Effective date: November 25, 2026** (previous version: October 19, 2026)
+**Effective date: November 27, 2026** (previous version: October 19, 2026)
 
 PeekFit ("the app") is a virtual try-on camera app for iPhone and Android,
 published by JoCoding, Inc. This policy explains what information the app
@@ -11,7 +11,8 @@ handles and how.
 - PeekFit has **no accounts** and never asks for your name, email, or password.
 - Your **photos never leave your device**. All image processing (clothing
   detection, erasing, compositing) happens on-device. The one exception is a
-  screenshot you choose to attach to feedback (see [Feedback](#feedback)).
+  screenshot attached to feedback or a problem report you send us, which you
+  see and can remove before sending (see [Feedback](#feedback)).
 - **Face data** — if you use the face figure, the app keeps one picture of your
   head on your device so the closet can dress it. It is never uploaded or
   shared, and you can replace it or delete it with the app (see
@@ -92,9 +93,22 @@ Each event includes:
 - your IP address, which PostHog uses to derive an **approximate location**
   (country and city).
 
-PostHog never receives your photos, camera images, or anything you type. The
-app does **not** record your screen or sessions. Data is stored on PostHog's
-servers in the United States.
+PostHog never receives your photos, camera images, or anything you type. Data
+is stored on PostHog's servers in the United States.
+
+**Answers to short questions.** When the app asks you a question with answers
+to tap (see [Feedback](#feedback)), the answer you tap is sent to PostHog as a
+choice from the list and kept with your random identifier. Anything you type
+is never sent to PostHog.
+
+**Session replay.** To understand why people stop at the daily limit or the
+unlock screen, we may record a small sample (about 1 in 10) of the sessions in
+which that happens. A recording is a simplified outline of the screen: all
+text, everything you type and all images are hidden. It never includes the
+camera, your photos, your face or anything you made: recording stops as soon
+as one of those screens appears and does not start again in that session. It
+never starts in any other session. Recordings are stored by PostHog. Session
+replay is **off** unless we switch it on, and we can switch it off at any time.
 
 See PostHog's policy: <https://posthog.com/privacy>
 
@@ -155,14 +169,41 @@ need them to improve the app; email us to have yours deleted sooner. Feedback
 is never sold, shared with advertisers, or used to decide who is asked for a
 store review.
 
+**Report a problem.** You can also report a problem from Settings, from an
+error message, or by shaking your phone (a switch in Settings turns the shake
+off). A problem report is feedback with two differences. The screenshot of
+the screen you were on is attached **by default**: you see it in the form and
+can remove it with one tap before sending. And the report includes a few
+technical details: the app version and build, your operating system and its
+version, device model, language, the name of the screen you were on, and a
+short code for the last error the app showed (for example `capture_save`). It
+never includes logs, your photos (other than what the attached screenshot
+shows) or your name.
+
+**Short questions.** Now and then, and at most once in two weeks, the app may
+ask one question with a few answers to tap, for example what stopped you from
+unlocking, or how you would feel if you could no longer use PeekFit. You can
+close it without answering. The answer you tap goes to our analytics as a
+choice from the list (see [Product analytics](#product-analytics-posthog)).
+If you also type something and press Send, that text is sent only to our own
+server, with the question and the answer you tapped, your app version, device
+model, language and the random identifier above. It is stored and deleted like
+other feedback, and has no screenshot.
+
+**Setup questions.** After the introduction on a new install, the app asks
+what you will mainly use PeekFit for and how you heard about it. Both are
+optional. Your answers are choices from a list and go to our analytics, never
+as text.
+
 ## What we never collect
 
-- Names, email addresses, phone numbers, or contacts
+- Names, phone numbers, or contacts; an email address only if you type one
+  into the feedback form
 - Precise (GPS) location
-- Photos, camera imagery, or any content you create in the app — unless
-  you choose to attach a screenshot to feedback
+- Photos, camera imagery, or any content you create in the app, other than
+  a screenshot attached to feedback or a problem report you send
 - Face data of any kind (it stays on your device — see [Face data](#face-data)),
-  apart from what a feedback screenshot you choose to attach may show
+  apart from what such a screenshot may show
 - Browsing history or data from other apps
 
 ## Your choices and requests
@@ -189,7 +230,7 @@ Questions? Email **highball@jocoding.net**.
 
 # PeekFit — 개인정보 처리방침 (한국어)
 
-**시행일: 2026년 11월 25일** (이전 버전: 2026년 10월 19일)
+**시행일: 2026년 11월 27일** (이전 버전: 2026년 10월 19일)
 
 PeekFit(이하 "앱")은 JoCoding, Inc.가 배포하는 iPhone·Android용 가상 피팅
 카메라 앱입니다.
@@ -198,8 +239,9 @@ PeekFit(이하 "앱")은 JoCoding, Inc.가 배포하는 iPhone·Android용 가�
 
 - 앱에는 **계정이 없으며** 이름, 이메일, 비밀번호를 요구하지 않습니다.
 - **사진은 기기 밖으로 전송되지 않습니다.** 옷 인식·지우기·합성 등 모든
-  이미지 처리는 기기 내에서만 이루어집니다. 단, 의견을 보낼 때 이용자가 직접
-  첨부한 스크린샷은 예외입니다(아래 「피드백」 참고).
+  이미지 처리는 기기 내에서만 이루어집니다. 단, 이용자가 보내는 피드백이나
+  문제 신고에 첨부된 스크린샷은 예외이며, 보내기 전에 확인하고 뺄 수
+  있습니다(아래 「피드백」 참고).
 - **얼굴 데이터** — 얼굴 피규어를 사용하면, 옷장에서 옷을 입혀 보여주기 위해
   얼굴(머리) 이미지 한 장을 기기에만 보관합니다. 업로드·공유되지 않으며,
   교체하거나 앱 삭제로 지울 수 있습니다(아래 「얼굴 데이터」 참고).
@@ -262,9 +304,22 @@ PeekFit에는 선택 기능인 **얼굴 피규어**가 있습니다. 전신 사�
 - 앱 버전, 기기 모델, 운영체제, 언어
 - IP 주소 — PostHog는 이를 이용해 **대략적 위치**(국가·도시)를 추정합니다.
 
-PostHog는 사진, 카메라 이미지, 이용자가 입력한 내용을 받지 않으며, 앱은
-화면이나 세션을 녹화하지 않습니다. 데이터는 미국에 있는 PostHog 서버에
-저장됩니다. 자세한 내용: <https://posthog.com/privacy>
+PostHog는 사진, 카메라 이미지, 이용자가 입력한 내용을 받지 않습니다.
+데이터는 미국에 있는 PostHog 서버에 저장됩니다.
+
+**짧은 질문의 답.** 앱이 탭해서 답하는 질문을 할 때(아래 「피드백」 참고),
+이용자가 고른 답은 목록의 항목으로 PostHog에 전송되어 무작위 식별자와 함께
+보관됩니다. 직접 입력한 글은 PostHog로 전송되지 않습니다.
+
+**세션 리플레이.** 하루 무료 한도나 잠금 해제 화면에서 멈추는 이유를 알기
+위해, 그런 일이 있었던 세션 중 일부(약 10분의 1)를 기록할 수 있습니다. 기록은
+화면의 단순한 윤곽이며 모든 글자, 입력 내용, 이미지는 가려집니다. 카메라,
+사진, 얼굴, 이용자가 만든 결과물은 포함되지 않습니다. 그런 화면이 나타나면
+즉시 기록을 멈추고 그 세션에서는 다시 시작하지 않습니다. 다른 세션에서는
+시작되지 않습니다. 기록은 PostHog에 저장됩니다. 세션 리플레이는 당사가 켜기
+전까지 **꺼져** 있으며 언제든 끌 수 있습니다.
+
+자세한 내용: <https://posthog.com/privacy>
 
 ## 광고 (Google AdMob)
 
@@ -311,11 +366,31 @@ Apple의 SKAdNetwork로 측정됩니다. Android에서는 광고 ID를 삭제·�
 더 일찍 삭제해 드립니다. 피드백은 판매되거나 광고주와 공유되지 않으며, 스토어
 리뷰 요청 대상을 정하는 데에도 사용되지 않습니다.
 
+**문제 신고.** 설정, 오류 메시지, 또는 휴대폰 흔들기(설정에서 끌 수 있음)로
+문제를 신고할 수도 있습니다. 문제 신고는 피드백과 같되 두 가지가 다릅니다.
+보고 있던 화면의 스크린샷이 **기본으로** 첨부되며, 보내기 전에 화면에서
+확인하고 한 번 탭해 뺄 수 있습니다. 그리고 몇 가지 기술 정보가 함께
+전송됩니다: 앱 버전과 빌드, 운영체제와 그 버전, 기기 모델, 언어, 보고 있던
+화면의 이름, 앱이 마지막으로 표시한 오류의 짧은 코드(예: `capture_save`).
+로그, 사진(첨부된 스크린샷에 보이는 것 제외), 이름은 포함되지 않습니다.
+
+**짧은 질문.** 앱은 가끔, 많아야 2주에 한 번, 탭해서 답하는 질문 하나를 할 수
+있습니다(예: 잠금 해제를 망설인 이유, PeekFit을 더 쓸 수 없다면 어떨지). 답하지
+않고 닫을 수 있습니다. 고른 답은 목록의 항목으로 분석 서비스에
+전송됩니다(위 「제품 분석」 참고). 글을 직접 입력하고 보내기를 누르면 그 글은
+질문, 고른 답, 앱 버전, 기기 모델, 언어, 위의 무작위 식별자와 함께 당사
+서버로만 전송됩니다. 다른 피드백과 같이 보관·삭제되며 스크린샷은 없습니다.
+
+**설정 질문.** 새로 설치한 뒤 소개가 끝나면, 앱은 PeekFit을 주로 어디에 쓸지와
+어떻게 알게 되었는지를 묻습니다. 둘 다 선택 사항이며, 답은 목록의 항목으로만
+분석 서비스에 전송됩니다.
+
 ## 수집하지 않는 정보
 
 이름·이메일·전화번호·연락처, 정밀(GPS) 위치, 사진 및 앱에서 만든 콘텐츠,
-얼굴 데이터(기기에만 보관), 다른 앱의 데이터는 수집하지 않습니다. 단, 피드백에
-이용자가 직접 첨부한 스크린샷과 직접 입력한 이메일은 예외입니다.
+얼굴 데이터(기기에만 보관), 다른 앱의 데이터는 수집하지 않습니다. 단, 이용자가
+보내는 피드백이나 문제 신고에 첨부된 스크린샷과 직접 입력한 이메일은
+예외입니다.
 
 ## 이용자의 선택과 요청
 
